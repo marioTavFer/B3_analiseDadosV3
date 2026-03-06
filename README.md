@@ -6,9 +6,24 @@ Este projeto realiza análise exploratória e visualização de dados da Bolsa d
 
 O ojetivo era verificar o porquê do aumento agressivo do indice IBOV de setembro de 2025 para 2026. No entanto, ao aprofundar um pouco mais na quantidade de dados disponibilizados pela B3, foi-se estendendo mais, a análise, e tem uma série de questões e inclusive técnicas, por exemplo, usando pandas e pyarrow/parquet mostrando a abismal diferença de tempo de execução de rotinas/funções.
 
-O projeto calcula retornos diários, correlações, retornos acumulados e gera gráficos interativos com Plotly para ilustrar a contribuição das ações TOP no desempenho do IBOV. Isto, além de outras 'perguntas', como foi a variação da quantidade de ações (ON e PN) ao longo dos últimos 20 anos, como foi o comportamento do volume financeiro, etc.etc. Tem dados da participação estrangeira na bolsa na pasta '\b3_analysis\b3-relatoriosDadosMercadoDaB3', etc,etc,etc
+O projeto calcula retornos diários, correlações, retornos acumulados e gera gráficos interativos com Plotly para ilustrar a contribuição das ações TOP no desempenho do IBOV. Isto, além de outras 'perguntas', como foi a variação da quantidade de ações (ON e PN) ao longo dos últimos 20 anos, como foi o comportamento do volume financeiro, etc.etc. Tem dados da participação estrangeira na bolsa na pasta '\b3_analysis\b3-relatoriosDadosMercadoDaB3', foi verificado que existem códigos novos do CODBDI que não estão no doc. ofical da B3 'SeriesHistoricas_Layout-2017.pdf' (pasta:/b3_docs), nem com ajuda de AI, Copilot e Gemini, estes conseguiram gerar uma tabela atualizada que fosse unânime, etc,etc,etc
 
-"FIRST THINGS FIRST": Para iniciar deve fazer o download dos arquivos históricos COTAHIST da B3 (zipados) e colocar na pasta 'b3_zip' (link está abaixo). Aqui só alguns arquivos para demonstrar como ficam as pastas 'populadas' com dados.
+Para todas as conversões zip->csv e depois ->parquet, pickle, csv, e salvas nas pastas corretas (formato/mercado_xxx) tem rotinas/funções prontas no jupyter notebook.
+
+A proposta, aqui, é disponibilizar várias funções, para outras ensaios que façam, mostrar alguns insights, e também, alguns detalhes não documentados ou desatualizados, como códigos (categórios e/ou numéricos) que são utilizados para tipificar o ticker (papel/ação), assim como não houve a preocupação em fazer uma 'análise exploratória' como 'deve ser', iniciando com 'limpeza', verificação de valores nulos, faltantes, outliers, etc., indo direto para "exploração" e extração de insights.
+
+## Umas dicas: 
+"FIRST THINGS FIRST": Para iniciar, deve fazer o download dos arquivos históricos COTAHIST da B3 (zipados) e colocar na pasta 'b3_zip' (link está abaixo). Aqui só tem alguns dos arquivos para demonstrar como ficam as pastas 'populadas' com os dados. 
+
+Se mantiver todos os zips (de 2000 a 2026), mais tudo (copias) em csv, parquet e picklet, vai ocupar em torno de 15 GB. 
+
+Só o número total de registros de operações, dos 26 anos (2000-2026), da pasta '/b3_data', são +/- 20 milhões de operações.
+
+As funções do notebook fazem tudo, de descompactar, trocar formatos, dividir em mercados (a vista, FIIs, BDRs, etc...) e colocar na pasta correta. Só precisam dos arquivos zip da B3.
+
+Finalizando as dicas, isto é um trabalho de um completo leigo sobre a B3 com objetivo de conhecer um pouco o funcionamento e entender os tipos de mercado que existem.
+
+Minha conclusão, que pode estar errada, é que a variação do IBOV é devido principalmente a 20 ações, embora façam parte do IBOV, de 2026, 79 ações, que o investidor estrangeiro representa entre 50% e 60% da fatia do mercado (/b3_analysis/b3-relatoriosDadosMercadoDaB3/05-FatiaDeInvestidores-mesAmes.csv), que as ações 'unicas' eram, em 2000, 661, e agora, em 2026, são 372, etc.etc.etc....
 
 ## Estrutura do Projeto
 
@@ -117,6 +132,23 @@ Instale com pip ou anaconda: (Obs: ainda não testei, mas quero brevemente testa
 ```
 pip install pandas plotly numpy pyarrow polars yfinance matplotlib
 ```
+## Atenção para alguns detalhes
+
+**Tickers que mudaram:**
+
+| Antigo | Novo | Evento/detalhe | Data 1 | Data 2 | Observacao |
+| --- | --- | --- | --- | --- | --- |
+| EMBR3 | EMBJ3 | - | 20251103 | - | - |
+| ELET3 | AXIA3 | - | 20251110 | - | - |
+| ELET5 | AXIA5 | - | 20251110 | - | - |
+| ELET6 | AXIA6 | - | 20251110 | - | - |
+| ALSO3 | ALOS3 | - | 20231025 | - | em 2023 |
+| JBSS3 | JBSS32 | saiu da B3 / BDR | 20250606 | 20250609 | JBSS32 |
+| MRFG3 | MRBRF3 | - | 202509 | - | - |
+| BRFS3 | MRBRF3 | 1 BRF = 0.8521 MRF | 20250925 | - | fusao |
+| CPFL6 | CPFL3 | unifica em CPFL3 | 20251222 | - | - |
+| CPFL5 | CPFL3 | unifica em CPFL3 | - | - | - |
+
 
 
 ## Licença
