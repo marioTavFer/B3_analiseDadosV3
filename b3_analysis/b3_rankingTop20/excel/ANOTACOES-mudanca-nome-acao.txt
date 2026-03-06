@@ -1,0 +1,13 @@
+Acoes que mudaram ticker:						
+						
+antigo	novo							data		
+EMBR3	EMBJ3							20251103		
+ELET3	AXIA3							20251110		
+		AXIA5					
+		AXIA6					
+ALSO3	ALOS3							20231025	****23	
+JBSS3	saiu	BDR	JBSS32				20250606	20250609	JBSS32
+MRFG3	MRBRF3							202509		
+BRFS3	MRBRF3	1 BRF =0.8521 MRF		20250925	fusao	
+CPFL6	CPFL3	unifica em CPFL3		20251222		
+CPFL5	CPFL3	unifica em CPFL3				

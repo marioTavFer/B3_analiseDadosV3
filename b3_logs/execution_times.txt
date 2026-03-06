@@ -1,0 +1,113 @@
+
+2026-03-04 17:43
+Execution times only zip->csv 2026 regsAno:606357
+Reading file: 11.87 seconds
+Creating DataFrame: 1.75 seconds
+Saving files: 4.42 seconds
+Filtering and saving: 0.00 seconds
+Total execution time: 18.04 seconds
+
+2026-03-04 17:49
+Execution times csv->parquet 2026 regsAno:606357 regsAvista:13023 regsFIIs:11548 regsFrac:15606
+Reading file: 1.04 seconds
+Creating DataFrame: 0.34 seconds
+Saving files: 0.97 seconds
+Filtering and saving: 0.14 seconds
+Total execution time: 2.48 seconds
+
+2026-03-04 17:53
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.03 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 1.43 seconds
+Filtering and saving: 1.43 seconds
+Total execution time: 2.78 seconds
+
+2026-03-04 17:54
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.03 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 1.41 seconds
+Filtering and saving: 1.41 seconds
+Total execution time: 2.76 seconds
+
+2026-03-04 17:54
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.02 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 1.42 seconds
+Filtering and saving: 1.42 seconds
+Total execution time: 2.76 seconds
+
+2026-03-04 18:05
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.05 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 1.41 seconds
+Filtering and saving: 1.41 seconds
+Total execution time: 2.78 seconds
+
+2026-03-04 18:11
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.03 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 1.41 seconds
+Filtering and saving: 1.41 seconds
+Total execution time: 2.76 seconds
+
+2026-03-04 18:18
+Execution times csv->pickle 2026 regsAno:606357 regsAvista:13023 regsFIIs:11548 regsFrac:15606
+Reading file: 1.07 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 0.42 seconds
+Filtering and saving: 0.08 seconds
+Total execution time: 1.89 seconds
+
+2026-03-04 18:19
+Execution times csv->csv 2026 regsAno:606357 regsAvista:13023 regsFIIs:11548 regsFrac:15606
+Reading file: 1.06 seconds
+Creating DataFrame: 0.32 seconds
+Saving files: 4.10 seconds
+Filtering and saving: 0.26 seconds
+Total execution time: 5.75 seconds
+
+2026-03-04 18:20
+Execution times csv->parquet 2026 regsAno:606357 regsAvista:13023 regsFIIs:11548 regsFrac:15606
+Reading file: 1.06 seconds
+Creating DataFrame: 0.28 seconds
+Saving files: 0.67 seconds
+Filtering and saving: 0.14 seconds
+Total execution time: 2.15 seconds
+
+2026-03-04 18:21
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.06 seconds
+Creating DataFrame: 0.29 seconds
+Saving files: 1.53 seconds
+Filtering and saving: 1.53 seconds
+Total execution time: 2.88 seconds
+
+2026-03-04 18:26
+Execution times csv->csv 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.07 seconds
+Creating DataFrame: 0.28 seconds
+Saving files: 4.63 seconds
+Filtering and saving: 4.63 seconds
+Total execution time: 5.98 seconds
+
+2026-03-04 18:26
+Execution times csv->pickle 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.10 seconds
+Creating DataFrame: 0.28 seconds
+Saving files: 1.10 seconds
+Filtering and saving: 1.10 seconds
+Total execution time: 2.48 seconds
+
+2026-03-04 18:26
+Execution times csv->parquet 2026 regsTotalAV:606357  regsacaoONPNBR:12559 regsBDRs:24975 regsUnits:387 regsOutros:541205
+Reading file: 1.07 seconds
+Creating DataFrame: 0.28 seconds
+Saving files: 1.44 seconds
+Filtering and saving: 1.44 seconds
+Total execution time: 2.79 seconds
+

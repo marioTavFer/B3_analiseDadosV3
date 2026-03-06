@@ -1,0 +1,485 @@
+b3_data2000
+
+Execution times:
+Reading file: 0.29 seconds
+Creating DataFrame: 0.10 seconds
+Saving files: 1.20 seconds
+Filtering and saving: 1.20 seconds
+Total execution time: 1.58 seconds
+Total registers read: 153682
+
+Filtered registers for mercado acoes ONPN BR: 56763
+Filtered registers for BDRs: 299
+Filtered registers for Units: 357
+Filtered registers for Outros: 96263
+ total acoes+bdr+units+outros:  153682 
+
+Total registers read: 153682
+
+b3_data2001
+
+Execution times:
+Reading file: 0.25 seconds
+Creating DataFrame: 0.08 seconds
+Saving files: 1.09 seconds
+Filtering and saving: 1.09 seconds
+Total execution time: 1.42 seconds
+Total registers read: 141848
+
+Filtered registers for mercado acoes ONPN BR: 49213
+Filtered registers for BDRs: 587
+Filtered registers for Units: 336
+Filtered registers for Outros: 91712
+ total acoes+bdr+units+outros:  141848 
+
+Total registers read: 141848
+
+b3_data2002
+
+Execution times:
+Reading file: 0.23 seconds
+Creating DataFrame: 0.07 seconds
+Saving files: 1.01 seconds
+Filtering and saving: 1.01 seconds
+Total execution time: 1.31 seconds
+Total registers read: 129973
+
+Filtered registers for mercado acoes ONPN BR: 47509
+Filtered registers for BDRs: 596
+Filtered registers for Units: 451
+Filtered registers for Outros: 81417
+ total acoes+bdr+units+outros:  129973 
+
+Total registers read: 129973
+
+b3_data2003
+
+Execution times:
+Reading file: 0.26 seconds
+Creating DataFrame: 0.08 seconds
+Saving files: 1.14 seconds
+Filtering and saving: 1.14 seconds
+Total execution time: 1.48 seconds
+Total registers read: 148112
+
+Filtered registers for mercado acoes ONPN BR: 50626
+Filtered registers for BDRs: 540
+Filtered registers for Units: 223
+Filtered registers for Outros: 96723
+ total acoes+bdr+units+outros:  148112 
+
+Total registers read: 148112
+
+b3_data2004
+
+Execution times:
+Reading file: 0.30 seconds
+Creating DataFrame: 0.09 seconds
+Saving files: 1.35 seconds
+Filtering and saving: 1.35 seconds
+Total execution time: 1.73 seconds
+Total registers read: 166937
+
+Filtered registers for mercado acoes ONPN BR: 53920
+Filtered registers for BDRs: 503
+Filtered registers for Units: 198
+Filtered registers for Outros: 112316
+ total acoes+bdr+units+outros:  166937 
+
+Total registers read: 166937
+
+b3_data2005
+
+Execution times:
+Reading file: 0.31 seconds
+Creating DataFrame: 0.08 seconds
+Saving files: 1.41 seconds
+Filtering and saving: 1.41 seconds
+Total execution time: 1.79 seconds
+Total registers read: 181408
+
+Filtered registers for mercado acoes ONPN BR: 54999
+Filtered registers for BDRs: 490
+Filtered registers for Units: 354
+Filtered registers for Outros: 125565
+ total acoes+bdr+units+outros:  181408 
+
+Total registers read: 181408
+
+b3_data2006
+
+Execution times:
+Reading file: 0.34 seconds
+Creating DataFrame: 0.08 seconds
+Saving files: 1.55 seconds
+Filtering and saving: 1.55 seconds
+Total execution time: 1.97 seconds
+Total registers read: 198367
+
+Filtered registers for mercado acoes ONPN BR: 57636
+Filtered registers for BDRs: 727
+Filtered registers for Units: 144
+Filtered registers for Outros: 139860
+ total acoes+bdr+units+outros:  198367 
+
+Total registers read: 198367
+
+b3_data2007
+
+Execution times:
+Reading file: 0.46 seconds
+Creating DataFrame: 0.12 seconds
+Saving files: 2.18 seconds
+Filtering and saving: 2.18 seconds
+Total execution time: 2.76 seconds
+Total registers read: 280255
+
+Filtered registers for mercado acoes ONPN BR: 79981
+Filtered registers for BDRs: 2641
+Filtered registers for Units: 1182
+Filtered registers for Outros: 196451
+ total acoes+bdr+units+outros:  280255 
+
+Total registers read: 280255
+
+b3_data2008
+
+Execution times:
+Reading file: 0.47 seconds
+Creating DataFrame: 0.12 seconds
+Saving files: 2.26 seconds
+Filtering and saving: 2.26 seconds
+Total execution time: 2.85 seconds
+Total registers read: 284235
+
+Filtered registers for mercado acoes ONPN BR: 82347
+Filtered registers for BDRs: 3870
+Filtered registers for Units: 2228
+Filtered registers for Outros: 195790
+ total acoes+bdr+units+outros:  284235 
+
+Total registers read: 284235
+
+b3_data2009
+
+Execution times:
+Reading file: 0.45 seconds
+Creating DataFrame: 0.11 seconds
+Saving files: 2.11 seconds
+Filtering and saving: 2.11 seconds
+Total execution time: 2.67 seconds
+Total registers read: 265046
+
+Filtered registers for mercado acoes ONPN BR: 77358
+Filtered registers for BDRs: 3964
+Filtered registers for Units: 1900
+Filtered registers for Outros: 181824
+ total acoes+bdr+units+outros:  265046 
+
+Total registers read: 265046
+
+b3_data2010
+
+Execution times:
+Reading file: 0.48 seconds
+Creating DataFrame: 0.12 seconds
+Saving files: 2.31 seconds
+Filtering and saving: 2.31 seconds
+Total execution time: 2.92 seconds
+Total registers read: 287480
+
+Filtered registers for mercado acoes ONPN BR: 77121
+Filtered registers for BDRs: 4135
+Filtered registers for Units: 2179
+Filtered registers for Outros: 204045
+ total acoes+bdr+units+outros:  287480 
+
+Total registers read: 287480
+
+b3_data2011
+
+Execution times:
+Reading file: 0.50 seconds
+Creating DataFrame: 0.13 seconds
+Saving files: 2.33 seconds
+Filtering and saving: 2.33 seconds
+Total execution time: 2.96 seconds
+Total registers read: 298370
+
+Filtered registers for mercado acoes ONPN BR: 78302
+Filtered registers for BDRs: 3705
+Filtered registers for Units: 1689
+Filtered registers for Outros: 214674
+ total acoes+bdr+units+outros:  298370 
+
+Total registers read: 298370
+
+b3_data2012
+
+Execution times:
+Reading file: 0.55 seconds
+Creating DataFrame: 0.14 seconds
+Saving files: 2.66 seconds
+Filtering and saving: 2.66 seconds
+Total execution time: 3.36 seconds
+Total registers read: 330633
+
+Filtered registers for mercado acoes ONPN BR: 73425
+Filtered registers for BDRs: 3883
+Filtered registers for Units: 1977
+Filtered registers for Outros: 251348
+ total acoes+bdr+units+outros:  330633 
+
+Total registers read: 330633
+
+b3_data2013
+
+Execution times:
+Reading file: 0.63 seconds
+Creating DataFrame: 0.16 seconds
+Saving files: 3.07 seconds
+Filtering and saving: 3.07 seconds
+Total execution time: 3.86 seconds
+Total registers read: 378917
+
+Filtered registers for mercado acoes ONPN BR: 71247
+Filtered registers for BDRs: 5721
+Filtered registers for Units: 2232
+Filtered registers for Outros: 299717
+ total acoes+bdr+units+outros:  378917 
+
+Total registers read: 378917
+
+b3_data2014
+
+Execution times:
+Reading file: 0.65 seconds
+Creating DataFrame: 0.17 seconds
+Saving files: 3.09 seconds
+Filtering and saving: 3.09 seconds
+Total execution time: 3.91 seconds
+Total registers read: 392228
+
+Filtered registers for mercado acoes ONPN BR: 69187
+Filtered registers for BDRs: 6560
+Filtered registers for Units: 2773
+Filtered registers for Outros: 313708
+ total acoes+bdr+units+outros:  392228 
+
+Total registers read: 392228
+
+b3_data2015
+
+Execution times:
+Reading file: 0.71 seconds
+Creating DataFrame: 0.18 seconds
+Saving files: 3.21 seconds
+Filtering and saving: 3.21 seconds
+Total execution time: 4.10 seconds
+Total registers read: 414177
+
+Filtered registers for mercado acoes ONPN BR: 64591
+Filtered registers for BDRs: 13028
+Filtered registers for Units: 2601
+Filtered registers for Outros: 333957
+ total acoes+bdr+units+outros:  414177 
+
+Total registers read: 414177
+
+b3_data2016
+
+Execution times:
+Reading file: 0.77 seconds
+Creating DataFrame: 0.20 seconds
+Saving files: 3.62 seconds
+Filtering and saving: 3.62 seconds
+Total execution time: 4.59 seconds
+Total registers read: 466734
+
+Filtered registers for mercado acoes ONPN BR: 63906
+Filtered registers for BDRs: 18994
+Filtered registers for Units: 2689
+Filtered registers for Outros: 381145
+ total acoes+bdr+units+outros:  466734 
+
+Total registers read: 466734
+
+b3_data2017
+
+Execution times:
+Reading file: 0.80 seconds
+Creating DataFrame: 0.21 seconds
+Saving files: 3.89 seconds
+Filtering and saving: 3.89 seconds
+Total execution time: 4.90 seconds
+Total registers read: 489115
+
+Filtered registers for mercado acoes ONPN BR: 67911
+Filtered registers for BDRs: 17898
+Filtered registers for Units: 2686
+Filtered registers for Outros: 400620
+ total acoes+bdr+units+outros:  489115 
+
+Total registers read: 489115
+
+b3_data2018
+
+Execution times:
+Reading file: 0.95 seconds
+Creating DataFrame: 0.26 seconds
+Saving files: 4.46 seconds
+Filtering and saving: 4.46 seconds
+Total execution time: 5.67 seconds
+Total registers read: 580155
+
+Filtered registers for mercado acoes ONPN BR: 69170
+Filtered registers for BDRs: 23678
+Filtered registers for Units: 2945
+Filtered registers for Outros: 484362
+ total acoes+bdr+units+outros:  580155 
+
+Total registers read: 580155
+
+b3_data2019
+
+Execution times:
+Reading file: 1.26 seconds
+Creating DataFrame: 0.41 seconds
+Saving files: 6.04 seconds
+Filtering and saving: 6.04 seconds
+Total execution time: 7.70 seconds
+Total registers read: 779229
+
+Filtered registers for mercado acoes ONPN BR: 71656
+Filtered registers for BDRs: 21646
+Filtered registers for Units: 5141
+Filtered registers for Outros: 680786
+ total acoes+bdr+units+outros:  779229 
+
+Total registers read: 779229
+
+b3_data2020
+
+Execution times:
+Reading file: 1.96 seconds
+Creating DataFrame: 0.68 seconds
+Saving files: 9.77 seconds
+Filtering and saving: 9.77 seconds
+Total execution time: 12.41 seconds
+Total registers read: 1251646
+
+Filtered registers for mercado acoes ONPN BR: 77631
+Filtered registers for BDRs: 48878
+Filtered registers for Units: 2840
+Filtered registers for Outros: 1122297
+ total acoes+bdr+units+outros:  1251646 
+
+Total registers read: 1251646
+
+b3_data2021
+
+Execution times:
+Reading file: 2.89 seconds
+Creating DataFrame: 1.30 seconds
+Saving files: 14.68 seconds
+Filtering and saving: 14.68 seconds
+Total execution time: 18.86 seconds
+Total registers read: 1831862
+
+Filtered registers for mercado acoes ONPN BR: 89225
+Filtered registers for BDRs: 103108
+Filtered registers for Units: 3163
+Filtered registers for Outros: 1636366
+ total acoes+bdr+units+outros:  1831862 
+
+Total registers read: 1831862
+
+b3_data2022
+
+Execution times:
+Reading file: 3.83 seconds
+Creating DataFrame: 1.80 seconds
+Saving files: 17.06 seconds
+Filtering and saving: 17.06 seconds
+Total execution time: 22.69 seconds
+Total registers read: 2117440
+
+Filtered registers for mercado acoes ONPN BR: 88909
+Filtered registers for BDRs: 116627
+Filtered registers for Units: 3524
+Filtered registers for Outros: 1908380
+ total acoes+bdr+units+outros:  2117440 
+
+Total registers read: 2117440
+
+b3_data2023
+
+Execution times:
+Reading file: 3.72 seconds
+Creating DataFrame: 1.29 seconds
+Saving files: 17.81 seconds
+Filtering and saving: 17.81 seconds
+Total execution time: 22.82 seconds
+Total registers read: 2257424
+
+Filtered registers for mercado acoes ONPN BR: 84748
+Filtered registers for BDRs: 113301
+Filtered registers for Units: 2514
+Filtered registers for Outros: 2056861
+ total acoes+bdr+units+outros:  2257424 
+
+Total registers read: 2257424
+
+b3_data2024
+
+Execution times:
+Reading file: 4.32 seconds
+Creating DataFrame: 1.42 seconds
+Saving files: 20.86 seconds
+Filtering and saving: 20.86 seconds
+Total execution time: 26.60 seconds
+Total registers read: 2635561
+
+Filtered registers for mercado acoes ONPN BR: 83142
+Filtered registers for BDRs: 119192
+Filtered registers for Units: 2287
+Filtered registers for Outros: 2430940
+ total acoes+bdr+units+outros:  2635561 
+
+Total registers read: 2635561
+
+b3_data2025
+
+Execution times:
+Reading file: 5.22 seconds
+Creating DataFrame: 2.12 seconds
+Saving files: 25.75 seconds
+Filtering and saving: 25.75 seconds
+Total execution time: 33.10 seconds
+Total registers read: 3174698
+
+Filtered registers for mercado acoes ONPN BR: 80867
+Filtered registers for BDRs: 136121
+Filtered registers for Units: 2466
+Filtered registers for Outros: 2955244
+ total acoes+bdr+units+outros:  3174698 
+
+Total registers read: 3174698
+
+b3_data2026
+
+Execution times:
+Reading file: 0.56 seconds
+Creating DataFrame: 0.15 seconds
+Saving files: 15.43 seconds
+Filtering and saving: 15.43 seconds
+Total execution time: 16.14 seconds
+Total registers read: 319841
+
+Filtered registers for mercado acoes ONPN BR: 6809
+Filtered registers for BDRs: 13244
+Filtered registers for Units: 208
+Filtered registers for Outros: 299580
+ total acoes+bdr+units+outros:  319841 
+
+Total registers read: 319841
