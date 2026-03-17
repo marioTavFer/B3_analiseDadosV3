@@ -1,5 +1,19 @@
 # Projeto B3 Data Analysis - Análise Exploratória de dados da B3
 
+## Preambulo da versão 4
+
+Acabei de, praticamente, reescrever 70%, ou mais, do código, porque o estou deixando mais 'friendly' para importá-lo para o marimo (novo notebook que estou testando. Ambiente virtual c/uv: marimo + uv, para testar opção de substituição de anaconda, conda, jupyter e pip).
+
+O código foi todo estruturado em funções, o que também facilita, qualquer um, utilizar partes, que forem mais úteis.
+
+Tem também um arquivo 'LEIAME_funcoes.md', criado pelo "meu amigo" Grok Code Fast 1, com a lista de todas as funções do notebook.
+
+O environment que utilizei também está, agora, disponível. É o 'python2026-torchStream.yaml" que uso com conda e gerenciado no Anaconda.
+É um "super-dimensionado" porque uso para outras "brincadeiras", também. Não precisa de "tudo isso"...
+
+Bom divertimento!
+
+
 ## Descrição
 
 Este projeto realiza análise exploratória e visualização de dados da Bolsa de Valores Brasileira (B3), focando no índice IBOV (Índice Bovespa) e nas ações que o compõem. O notebook principal `B3_analiseDadosV3.ipynb` analisa a influência das 21 ações TOP do IBOV na variação do índice, utilizando dados históricos de cotações e rankings mensais.
@@ -17,7 +31,7 @@ A proposta, aqui, é disponibilizar várias funções, para outras ensaios que f
 
 Se mantiver todos os zips (de 2000 a 2026), mais tudo (copias) em csv, parquet e picklet, vai ocupar em torno de 15 GB. 
 
-Só o número total de registros de operações, dos 26 anos (2000-2026), da pasta '/b3_data', são +/- 20 milhões de operações.
+Só o número total de registros de operações, dos 27 anos (2000-2026), da pasta '/b3_data', são +/- 20 milhões de operações.
 
 As funções do notebook fazem tudo, de descompactar, trocar formatos, dividir em mercados (a vista, FIIs, BDRs, etc...) e colocar na pasta correta. Só precisam dos arquivos zip da B3.
 
@@ -117,14 +131,14 @@ O notebook é dividido em células que carregam dados, processam cálculos e ger
 - **Correlação**: Scatter plot com linha OLS; coeficiente próximo a 1 indica forte influência.
 - **Influência**: Quantifica quanto cada ação contribuiu para a variação do IBOV em pontos percentuais.
 
-## Dependências
+## Dependências Principais
 
 - pandas
 - plotly
 - numpy
 - pyarrow
-- polars
-- yfinance
+- polars (não usado)
+- yfinance (opcional)
 - matplotlib (opcional)
 
 Instale com pip ou anaconda: (Obs: ainda não testei, mas quero brevemente testar o Marimo e uv, para substituir anaconda, conda, pip e jupyter):

@@ -1,0 +1,12 @@
+| Antigo | Novo | Evento/detalhe | Data 1 | Data 2 | Observacao |
+| --- | --- | --- | --- | --- | --- |
+| EMBR3 | EMBJ3 | - | 20251103 | - | - |
+| ELET3 | AXIA3 | - | 20251110 | - | - |
+| ELET5 | AXIA5 | - | 20251110 | - | - |
+| ELET6 | AXIA6 | - | 20251110 | - | - |
+| ALSO3 | ALOS3 | - | 20231025 | - | em 2023 |
+| JBSS3 | JBSS32 | saiu da B3 / BDR | 20250606 | 20250609 | JBSS32 |
+| MRFG3 | MRBRF3 | - | 202509 | - | - |
+| BRFS3 | MRBRF3 | 1 BRF = 0.8521 MRF | 20250925 | - | fusao |
+| CPFL6 | CPFL3 | unifica em CPFL3 | 20251222 | - | - |
+| CPFL5 | CPFL3 | unifica em CPFL3 | - | - | - |
