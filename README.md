@@ -12,7 +12,8 @@ O environment que utilizei também está, agora, disponível. É o 'python2026-t
 É um "super-dimensionado" porque uso para outras "brincadeiras", também. Não precisa de "tudo isso"...
 
 Bom divertimento!
-
+(Nota1: já tem o repositório 'B3_analise_marimoNotebookV1' com a versão 1: uv + marimo notebook)
+(Nota2: falta ainda, no final, a sugestão de 'próximos passos' (que tem!), assim que terminar, adiciono aqui.
 
 ## Descrição
 
@@ -138,8 +139,9 @@ O notebook é dividido em células que carregam dados, processam cálculos e ger
 - numpy
 - pyarrow
 - polars (não usado)
-- yfinance (opcional)
-- matplotlib (opcional)
+- yfinance (não usado)
+- matplotlib (não usado)
+- statsmodels (para o gráfico de correlação, na versão marimo, o marimo detectou a falta e uv instalou)
 
 Instale com pip ou anaconda: (Obs: ainda não testei, mas quero brevemente testar o Marimo e uv, para substituir anaconda, conda, pip e jupyter):
 
