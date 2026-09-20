@@ -44,7 +44,7 @@ Minha conclusão, que pode estar errada, é que a variação do IBOV é devido p
 
 ```
 B3_dataV2/
-├── B3_analiseDadosV3.ipynb          # Notebook principal com análises e gráficos
+├── B3_analiseDadosV4.2.ipynb          # Notebook principal com análises e gráficos
 ├── README.md                  # Este arquivo
 ├── b3_analysis/
 │   ├── acoesTop20_cotacoes/
