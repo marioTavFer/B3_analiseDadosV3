@@ -17,7 +17,7 @@ Bom divertimento!
 
 ## Descrição
 
-Este projeto realiza análise exploratória e visualização de dados da Bolsa de Valores Brasileira (B3), focando no índice IBOV (Índice Bovespa) e nas ações que o compõem. O notebook principal `B3_analiseDadosV3.ipynb` analisa a influência das 21 ações TOP do IBOV na variação do índice, utilizando dados históricos de cotações e rankings mensais.
+Este projeto realiza análise exploratória e visualização de dados da Bolsa de Valores Brasileira (B3), focando no índice IBOV (Índice Bovespa) e nas ações que o compõem. O notebook principal `B3_analiseDadosV4.2.ipynb` analisa a influência das 21 ações TOP do IBOV na variação do índice, utilizando dados históricos de cotações e rankings mensais.
 
 O ojetivo era verificar o porquê do aumento agressivo do indice IBOV de setembro de 2025 para 2026. No entanto, ao aprofundar um pouco mais na quantidade de dados disponibilizados pela B3, foi-se estendendo mais, a análise, e tem uma série de questões e inclusive técnicas, por exemplo, usando pandas e pyarrow/parquet mostrando a abismal diferença de tempo de execução de rotinas/funções.
 
